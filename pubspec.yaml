@@ -1,0 +1,54 @@
+name: cocodemy
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.1.0
+  get: ^4.6.5
+  cloud_firestore: ^4.0.2
+  google_fonts: ^3.0.1
+  firebase_storage: ^11.0.3
+  cached_network_image: ^3.2.2
+  flutter_zoom_drawer: ^3.0.3
+  #flutter_zoom_drawer: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/DB/papers/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/icons/AppIcons.ttf
+
+
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

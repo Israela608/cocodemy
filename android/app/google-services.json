@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "362725516540",
+    "project_id": "cocodemy-77295",
+    "storage_bucket": "cocodemy-77295.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362725516540:android:6b6baf2291be5ee3b7a379",
+        "android_client_info": {
+          "package_name": "com.example.cocodemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362725516540-2cu6kqg7rnomlhv617sfpd8cua21tocd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAhON5RSPo3PbOq_MV4rLf1lfbfYO68EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362725516540-2cu6kqg7rnomlhv617sfpd8cua21tocd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "362725516540-v19gda38oci78351s3j0rt6k1euc66jk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cocodemy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
