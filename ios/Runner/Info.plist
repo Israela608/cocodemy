@@ -47,5 +47,18 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>CFBundleURLTypes</key>
+	    <array>
+	        <dict>
+    		    <key>CFBundleTypeRole</key>
+    		    <string>Editor</string>
+    		    <key>CFBundleURLSchemes</key>
+    		     <array>
+    		         <!-- TODO Replace this value: -->
+    		         <!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+                     <string>com.googleusercontent.apps.362725516540-v19gda38oci78351s3j0rt6k1euc66jk</string>
+    		     </array>
+    		</dict>
+    	</array>
 </dict>
 </plist>

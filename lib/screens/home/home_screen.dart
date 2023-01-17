@@ -17,6 +17,8 @@ import 'package:get/get.dart';
 class HomeScreen extends GetView<MyZoomDrawerController> {
   const HomeScreen({Key? key}) : super(key: key);
 
+  static const String routeName = '/home';
+
   @override
   Widget build(BuildContext context) {
     QuestionPaperController questionPaperController = Get.find();
@@ -30,7 +32,7 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
       style: DrawerStyle.defaultStyle,
       moveMenuScreen: false,
       menuBackgroundColor: Colors.white.withOpacity(0.5),
-      slideWidth: MediaQuery.of(context).size.width * 0.4,
+      slideWidth: MediaQuery.of(context).size.width * 0.75,
       menuScreen: MenuScreen(),
       mainScreen: Container(
         decoration: BoxDecoration(gradient: mainGradient()),

@@ -18,3 +18,5 @@ DocumentReference questionRF({
 
 // Firebase storage reference
 Reference get firebaseStorage => FirebaseStorage.instance.ref();
+
+final userRF = fireStore.collection('users');

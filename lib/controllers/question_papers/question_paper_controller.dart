@@ -1,7 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cocodemy/controllers/auth_controller.dart';
 import 'package:cocodemy/firebase_ref/references.dart';
 import 'package:cocodemy/models/question_paper_model.dart';
 import 'package:cocodemy/services/firebase_storage_service.dart';
+import 'package:cocodemy/utils/app_logger.dart';
 import 'package:get/get.dart';
 
 class QuestionPaperController extends GetxController {
@@ -44,10 +46,30 @@ class QuestionPaperController extends GetxController {
         allPapers.assignAll(paperList);
 
         //We add the path to our list of image paths
-        //allPaperImages.add(imgUrl!); //////////////
+        //allPaperImages.add(imgUrl!); /////////////
       }
     } catch (e) {
-      print(e);
+      AppLogger.e(e);
+    }
+  }
+
+  void navigateToQuestions({
+    required QuestionPaperModel paper,
+    bool tryAgain = false,
+  }) {
+    AuthController _authController = Get.find();
+
+    if (_authController.isLoggedIn()) {
+      if (tryAgain) {
+        Get.back();
+        //Get.offNamed();
+      } else {
+        print('logged in');
+        //Get.toNamed();
+      }
+    } else {
+      print('The title is ${paper.title}');
+      _authController.showLoginAlertDialog();
     }
   }
 }
