@@ -5,6 +5,10 @@ import 'package:flutter/material.dart';
 
 const Color onSurfaceTextColor = Colors.white;
 
+const Color correctAnswerColor = Color(0xFF3ac3cb);
+const Color wrongAnswerColor = Color(0xFFf85187);
+const Color notAnsweredColor = Color(0xFF2a3c65);
+
 //For light mode
 const mainGradientLight = LinearGradient(
   begin: Alignment.topLeft,
@@ -37,3 +41,11 @@ LinearGradient mainGradient(BuildContext context) =>
 Color customScaffoldColor(BuildContext context) => UIParameters.isDarkMode()
     ? const Color(0xFF2e3c62)
     : const Color.fromARGB(225, 240, 237, 255);
+
+Color answerSelectedColor(BuildContext context) => UIParameters.isDarkMode()
+    ? Theme.of(context).cardColor
+    : Theme.of(context).primaryColor;
+
+Color answerBorderColor(BuildContext context) => UIParameters.isDarkMode()
+    ? const Color.fromARGB(225, 20, 46, 158)
+    : const Color.fromARGB(225, 221, 221, 221);

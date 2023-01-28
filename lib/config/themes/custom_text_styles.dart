@@ -17,3 +17,21 @@ const headerText = TextStyle(
   fontWeight: FontWeight.w700,
   color: onSurfaceTextColor,
 );
+
+const questionText = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.w800,
+);
+
+const appBarText = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.bold,
+  color: onSurfaceTextColor,
+);
+
+TextStyle countDownTimerText(context) => TextStyle(
+      letterSpacing: 2,
+      color: UIParameters.isDarkMode()
+          ? Theme.of(context).textTheme.bodyText1!.color
+          : Theme.of(context).primaryColor,
+    );

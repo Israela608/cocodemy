@@ -44,8 +44,5 @@ class MyZoomDrawerController extends GetxController {
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'could not launch $url';
     }
-    /*if (!await launch(urlString)) {
-      throw 'could not launch $url';
-    }*/
   }
 }

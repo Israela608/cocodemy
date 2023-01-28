@@ -30,13 +30,14 @@ class QuestionPaperModel {
             .toList();
 
   //If it's coming from firebase, use fromSnapshot()
-  QuestionPaperModel.fromSnapshot(DocumentSnapshot<Map<String, dynamic>> json)
-      : id = json.id,
-        title = json['title'],
-        imageUrl = json['image_url'],
-        description = json['description'],
-        timeSeconds = json['time_seconds'],
-        questionCount = json['questions_count'] as int,
+  QuestionPaperModel.fromSnapshot(
+      DocumentSnapshot<Map<String, dynamic>> snapshot)
+      : id = snapshot.id,
+        title = snapshot['title'],
+        imageUrl = snapshot['image_url'],
+        description = snapshot['description'],
+        timeSeconds = snapshot['time_seconds'],
+        questionCount = snapshot['questions_count'] as int,
         questions = [];
 
   //Return the time in minutes
@@ -61,6 +62,7 @@ class Questions {
   String question;
   List<Answers> answers;
   String? correctAnswer;
+  String? selectedAnswer;
 
   Questions(
       {required this.id,
@@ -74,6 +76,12 @@ class Questions {
         answers =
             (json['answers'] as List).map((e) => Answers.fromJson(e)).toList(),
         correctAnswer = json['correct_answer'];
+
+  Questions.fromSnapshot(QueryDocumentSnapshot<Map<String, dynamic>> snapshot)
+      : id = snapshot.id,
+        question = snapshot['question'] as String,
+        answers = [],
+        correctAnswer = snapshot['correct_answer'] as String;
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
@@ -96,6 +104,10 @@ class Answers {
   Answers.fromJson(Map<String, dynamic> json)
       : identifier = json['identifier'],
         answer = json['Answer'];
+
+  Answers.fromSnapshot(QueryDocumentSnapshot<Map<String, dynamic>> snapshot)
+      : identifier = snapshot['identifier'] as String,
+        answer = snapshot['answer'] as String;
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};

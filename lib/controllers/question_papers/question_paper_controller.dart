@@ -2,8 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cocodemy/controllers/auth_controller.dart';
 import 'package:cocodemy/firebase_ref/references.dart';
 import 'package:cocodemy/models/question_paper_model.dart';
+import 'package:cocodemy/screens/home/home_screen.dart';
+import 'package:cocodemy/screens/question/questions_screen.dart';
 import 'package:cocodemy/services/firebase_storage_service.dart';
 import 'package:cocodemy/utils/app_logger.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 class QuestionPaperController extends GetxController {
@@ -53,6 +56,7 @@ class QuestionPaperController extends GetxController {
     }
   }
 
+  //Method that opens the Questions page for a particular paper that is clicked
   void navigateToQuestions({
     required QuestionPaperModel paper,
     bool tryAgain = false,
@@ -61,11 +65,17 @@ class QuestionPaperController extends GetxController {
 
     if (_authController.isLoggedIn()) {
       if (tryAgain) {
-        Get.back();
-        //Get.offNamed();
+        //Go to Questions screen and Remove all the routes (including the QuestionsScreen route, so as to restart the test) opened until the Home screen.
+        //So if we decide to go back, we go directly to the Home screen
+        Get.offNamedUntil(
+          QuestionsScreen.routeName,
+          arguments: paper,
+          ModalRoute.withName(HomeScreen.routeName),
+        );
       } else {
         print('logged in');
-        //Get.toNamed();
+        //This will also save the particular paper to Getx arguments
+        Get.toNamed(QuestionsScreen.routeName, arguments: paper);
       }
     } else {
       print('The title is ${paper.title}');
