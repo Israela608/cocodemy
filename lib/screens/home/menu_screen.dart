@@ -1,10 +1,10 @@
 import 'package:cocodemy/config/themes/app_colors.dart';
 import 'package:cocodemy/config/themes/ui_parameters.dart';
+import 'package:cocodemy/controllers/theme_controller.dart';
 import 'package:cocodemy/controllers/zoom_drawer_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/src/simple/get_view.dart';
 
 class MenuScreen extends GetView<MyZoomDrawerController> {
   const MenuScreen({Key? key}) : super(key: key);
@@ -52,6 +52,49 @@ class MenuScreen extends GetView<MyZoomDrawerController> {
                             ),
                     ),
                     const Spacer(flex: 1),
+                    ///////////////////////////////////////
+                    GetBuilder<ThemeController>(
+                      builder: (themeController) {
+                        return Column(
+                          children: [
+                            FloatingActionButton(
+                              onPressed: () {
+                                themeController.switchTheme();
+
+                                //final themeController = Get.find<ThemeController>();
+                                //Get.find<ThemeController>().switchTheme();
+
+                                // themeController.theme =
+                                //     themeController.theme == themeController.lightTheme
+                                //         ? themeController.darkTheme
+                                //         : themeController.lightTheme;
+
+                                //darkMode.value = value;
+
+                                /* Get.changeTheme(themeController.theme ==
+                                        themeController.lightTheme
+                                    ? themeController.darkTheme
+                                    : themeController.lightTheme);*/
+                                // Get.changeThemeMode(
+                                //     !value ? ThemeMode.light : ThemeMode.dark);
+                                /* Get.changeTheme(
+                                  Get.isDarkMode
+                                      ? themeController.lightTheme
+                                      : themeController.darkTheme,
+                                );*/
+                                //themeController.update();
+                                //Get.find<MyZoomDrawerController>().update();
+                                //Get.forceAppUpdate();
+                                //Get.reloadAll();
+                              },
+                              child: Get.isDarkMode
+                                  ? const Icon(Icons.brightness_3)
+                                  : const Icon(Icons.wb_sunny),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
                     _DrawerButton(
                       icon: Icons.web,
                       label: 'website',

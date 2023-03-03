@@ -8,6 +8,213 @@
     "questions": [
         {
             "id": "ppr001q001",
+            "question": "Which of the following is a unit of frequency?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Watt"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Hertz"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Joule"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ohm"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q002",
+            "question": "What type of waves are used in radar?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Sound waves"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Radio waves"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Infrared waves"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ultraviolet waves"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q003",
+            "question": "What type of lens is used in a magnifying glass?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Concave"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Convex"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Plano-concave"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Plano-convex"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q004",
+            "question": "What is the speed of light in a vacuum?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3000 km/s"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "300,000 km/s"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "3,000,000 km/s"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "30,000,000 km/s"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q005",
+            "question": "What type of force holds the nucleus of an atom together?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Electromagnetic force"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Gravitational force"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Strong nuclear force"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Weak nuclear force"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q006",
+            "question": "Which of the following is not a fundamental force of nature?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Electromagnetic force"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Strong nuclear force"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Weak nuclear force"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Frictional force"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q007",
+            "question": "What is the energy stored in a spring called?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Potential energy"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Kinetic energy"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Thermal energy"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Electrical energy"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q008",
+            "question": "Which of the following statements is true about the speed of light?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "It is constant in all reference frames"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "It depends on the wavelength"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "It is always greater than the speed of sound"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "It decreases in a vacuum"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q009",
+            "question": "What is the name for the amount of matter in an object?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Weight"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Density"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Volume"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Mass"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q010",
             "question": "Which one of the following is a good conductor of electricity?",
             "answers": [
                 {
@@ -30,7 +237,7 @@
             "correct_answer": "B"
         },
         {
-            "id": "ppr001q002",
+            "id": "ppr001q011",
             "question": "Which one of the following has maximum energy?",
             "answers": [
                 {
@@ -53,7 +260,7 @@
             "correct_answer": "C"
         },
         {
-            "id": "ppr001q003",
+            "id": "ppr001q012",
             "question": "Which law is involved in the act of cleaning a carpet by beating it with a stick?",
             "answers": [
                 {
@@ -76,7 +283,7 @@
             "correct_answer": "C"
         },
         {
-            "id": "ppr001q004",
+            "id": "ppr001q013",
             "question": "which of the following is a unit of eletric current:",
             "answers": [
                 {
@@ -99,7 +306,7 @@
             "correct_answer": "D"
         },
         {
-            "id": "ppr001q005",
+            "id": "ppr001q014",
             "question": "When an object is in motion, it's ................... must change.?",
             "answers": [
                 {
@@ -120,6 +327,297 @@
                 }
             ],
             "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q015",
+            "question": "What is the name of the process where a solid changes directly into a gas without becoming a liquid first?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Sublimation"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Vaporization"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Melting"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Condensation"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q016",
+            "question": "What is the SI unit for measuring electric current?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Joule"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Volt"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Ampere"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ohm"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q017",
+            "question": "What is the name of the process where a gas changes directly into a solid without becoming a liquid first?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Melting"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Condensation"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Vaporization"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Deposition"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q018",
+            "question": "What is the name for the smallest unit of an element that retains the properties of that element?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Molecule"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Atom"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Ion"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Compound"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q019",
+            "question": "What is the formula for calculating work?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Work = mass x acceleration"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Work = force x distance"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Work = power x time"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Work = energy x time"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q020",
+            "question": "A ball is thrown with an initial velocity of 20m/s at an angle of 30 degrees to the horizontal. What is the maximum height reached by the ball? (Neglect air resistance)",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "9.8m"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "10.2m"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "11.1m"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "12.5m"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q021",
+            "question": "A block of mass 5kg rests on a horizontal surface. The coefficient of static friction between the block and the surface is 0.4. What minimum force must be applied horizontally to the block to make it start moving?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2N"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "8N"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "20N"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "25N"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q022",
+            "question": "An object of mass 1kg moving at 10m/s collides with a stationary object of mass 2kg. If the objects stick together after the collision, what is their common velocity?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2.5m/s"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3.3m/s"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "4.0m/s"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "6.7m/s"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q023",
+            "question": "Which of the following statements about electric potential is true?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "It is a scalar quantity"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "It depends on the charge of the test charge"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "It is zero at an infinite distance from a point charge"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "It is negative for a positive charge"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q024",
+            "question": "Which of the following statements about an AC circuit is true?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "The voltage and current are always in phase"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "The voltage and current are out of phase by 90 degrees"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "The voltage is always zero"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "The current is always zero"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q025",
+            "question": "A 5 kg block is suspended from a spring with a spring constant of 200 N/m. If the block is pulled down 2 cm from its equilibrium position and released, what is the frequency of the resulting oscillation?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "0.50 Hz"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "2.00 Hz"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "5.00 Hz"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "10.00 Hz"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q026",
+            "question": "A car accelerates uniformly from rest to a speed of 25 m/s in 10 seconds. What is the magnitude of the car's acceleration?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "0.25 m/s^2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "2.50 m/s^2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "10.00 m/s^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "25.00 m/s^2"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q027",
+            "question": "True or False: If an object is moving with constant velocity, there must be no forces acting on it.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "B"
         }
     ]
 }

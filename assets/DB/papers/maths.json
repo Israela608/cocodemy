@@ -119,6 +119,527 @@
                 }
             ],
             "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q006",
+            "question": "A rectangular box has a length of 10 cm, a width of 8 cm and a height of 6 cm. What is the volume of the box?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "400 cm^3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "480 cm^3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "600 cm^3"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "4800 cm^3"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q007",
+            "question": "If a circle has a diameter of 10 cm, what is its circumference?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "10π cm"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "5π cm"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "20π cm"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "π/5 cm"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q008",
+            "question": "What is the equation of the line passing through the points (-2, 3) and (4, 7)?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "y = 2x + 7"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "y = -2x + 7"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "y = 2x + 3"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "y = -2x + 3"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q009",
+            "question": "If log base 2 of x equals 5, what is the value of x?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "32"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "10"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "16"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "2.5"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q010",
+            "question": "If f(x) = x^2 + 4x + 3, what is the value of f(-2)?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "-1"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "5"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "1"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q011",
+            "question": "A basketball team scores an average of 95 points per game. In their last game, they scored 110 points. What is their new average score per game?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "95"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "96"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "97"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "98"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q012",
+            "question": "What is the value of y if 4y + 7 = 31?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "4"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "6"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "5"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q013",
+            "question": "If x - 2 = 10, what is the value of x?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "12"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "14"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "6"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q014",
+            "question": "If the square of a number is 169, what is the number?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "11"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "13"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "17"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "19"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q015",
+            "question": "What is the value of 5! ?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "10"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "20"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "120"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "100"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q016",
+            "question": "What is the derivative of y = x^3 + 4x^2 - 3x + 2?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2x^2 + 3x - 3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3x^2 + 8x - 3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "3x^2 + 8x - 2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "2x^2 + 4x - 1"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q017",
+            "question": "The sum of two numbers is 36, and their difference is 12. What are the numbers?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "12 and 24"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "15 and 21"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "18 and 18"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "20 and 16"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q018",
+            "question": "What is the slope of the line passing through the points (3, 5) and (6, 11)?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "4"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "5"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q019",
+            "question": "What is the area of a circle with radius 4 cm?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "16π cm^2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "32π cm^2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8π cm^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "64π cm^2"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q020",
+            "question": "True or false: The square of any real number is positive.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q021",
+            "question": "If John has a balance of $500 in his savings account and deposits $200 each month, how much money will he have in his savings account after six months?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "$1200"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "$1400"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "$1300"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "$1100"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q022",
+            "question": "A store has a 10% off sale on all items. If a shirt originally costs $30, what is the sale price?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "$27"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "$3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "$300"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "$33"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q023",
+            "question": "Solve for x: 2x + 4 = 12",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "6"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "4"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "12"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q024",
+            "question": "What is the square root of 49?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "9"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "7"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "6"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "5"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q025",
+            "question": "Which is the largest number: -3, -5, -2, -7, -1?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "-7"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "-5"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "-1"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "-2"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q026",
+            "question": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its area?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "13 cm^2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "40 cm^2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "20 cm^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "48 cm^2"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q027",
+            "question": "What is the value of π (pi) to two decimal places?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3.15"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3.14"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "3.16"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "3.12"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q028",
+            "question": "What is the formula to find the circumference of a circle?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "πr^2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "2πr"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "πd"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "r/d"
+                }
+            ],
+            "correct_answer": "B"
         }
     ]
 }

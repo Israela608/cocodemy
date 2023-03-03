@@ -3,7 +3,7 @@
     "title": "Chemistry",
     "image_url": "",
     "Description": "Basic Chemistry Multiple Choice Questions (MCQ) to practice basic Chemistry quiz answers",
-    "time_seconds": 900,
+    "time_seconds": 300,
     "questions": [
         {
             "id": "ppr002q001",
@@ -100,6 +100,466 @@
                 {
                     "identifier": "B",
                     "Answer": "false"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q006",
+            "question": "What is the chemical symbol for gold?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Ag"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Au"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Al"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ar"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q007",
+            "question": "What is the molecular formula for water?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "HO"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "H2O"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "O2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "CO2"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q008",
+            "question": "What is the chemical formula for glucose?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "C12H22O11"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "CH4"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "C6H12O6"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "H2O"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q009",
+            "question": "What is the chemical symbol for potassium?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "K"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "P"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Fe"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ag"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q010",
+            "question": "Which element is a nonmetal?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Sodium"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Oxygen"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Iron"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Magnesium"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q011",
+            "question": "What is the chemical formula for table salt?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "NaCl"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "KCl"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "MgCl2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "CaCl2"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q012",
+            "question": "What is the atomic number of oxygen?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "6"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "7"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "9"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q013",
+            "question": "What is the pH of pure water?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "7"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "less than 7"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "greater than 7"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "cannot be determined"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q014",
+            "question": "What is the formula for sulfuric acid?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "HNO3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "HClO4"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "H2SO4"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "H3PO4"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q015",
+            "question": "What is the name of the process in which a gas is converted to a liquid?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Condensation"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Vaporization"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Sublimation"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Melting"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q016",
+            "question": "What is the name of the process where a liquid changes to a gas?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Condensation"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Evaporation"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Freezing"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Sublimation"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q017",
+            "question": "What is the molecular formula for glucose?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "C6H12O6"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "H2O"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "CO2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "NaCl"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q018",
+            "question": "What is the chemical formula for sulphuric acid?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "H2SO4"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "CO2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "H2O"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "NaCl"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q019",
+            "question": "What is the difference between an acid and a base?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "An acid releases hydrogen ions in water while a base releases hydroxide ions in water."
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "An acid releases hydroxide ions in water while a base releases hydrogen ions in water."
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "An acid has a pH greater than 7 while a base has a pH less than 7."
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "An acid has a pH less than 7 while a base has a pH greater than 7."
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr002q020",
+            "question": "What is the difference between an exothermic and an endothermic reaction?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "An exothermic reaction releases energy to the surroundings, while an endothermic reaction absorbs energy from the surroundings."
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "An exothermic reaction absorbs energy from the surroundings, while an endothermic reaction releases energy to the surroundings."
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "An exothermic reaction releases energy from electrons, while an endothermic reaction absorbs energy from electrons."
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "An exothermic reaction absorbs energy from electrons, while an endothermic reaction releases energy from electrons."
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q021",
+            "question": "What is the difference between a physical change and a chemical change?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "A physical change is reversible while a chemical change is irreversible."
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "A physical change changes the chemical makeup of a substance while a chemical change changes the physical makeup of a substance."
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "A physical change changes the physical properties of a substance while a chemical change changes the chemical properties of a substance."
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "A physical change changes the state of matter of a substance while a chemical change changes the temperature of a substance."
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q022",
+            "question": "What is Avogadro's number?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "6.022 x 10^23"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "3.1415"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "9.8 m/s^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "299,792,458 m/s"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q023",
+            "question": "What is the molecular formula for ammonia?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "NH4+"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "NH3"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "N2H4"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "N2H3"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q024",
+            "question": "What is the oxidation number of nitrogen in NH3?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "-3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "0"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "+3"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "+5"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q025",
+            "question": "What is the name of the process in which a liquid is converted to a gas?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Condensation"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Vaporization"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Sublimation"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Melting"
                 }
             ],
             "correct_answer": "B"

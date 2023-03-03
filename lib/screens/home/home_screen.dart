@@ -17,7 +17,7 @@ import 'package:get/get.dart';
 class HomeScreen extends GetView<MyZoomDrawerController> {
   const HomeScreen({Key? key}) : super(key: key);
 
-  static const String routeName = '/home';
+  static const String routeName = '/';
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
                         ],
                       ),
                     ),
-                    Text(
+                    const Text(
                       'What do you want to learn today?',
                       style: headerText,
                     ),

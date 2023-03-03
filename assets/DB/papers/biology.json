@@ -119,6 +119,425 @@
                 }
             ],
             "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q006",
+            "question": "Which of the following is a characteristic of all living organisms?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Ability to move"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Ability to photosynthesize"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Ability to reproduce"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Ability to communicate"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr004q007",
+            "question": "What is the main function of the respiratory system?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To remove waste products from the body"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To circulate blood throughout the body"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To exchange gases with the environment"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To digest food and absorb nutrients"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr004q008",
+            "question": "Which of the following is NOT a primary tissue type in animals?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Epithelial"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Connective"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Nervous"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Contractile"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q009",
+            "question": "True or false: All cells in the human body have the same DNA.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q010",
+            "question": "Which of the following is an example of an organ system in the human body?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "The respiratory system"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "The liver"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "The small intestine"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "The skin"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q011",
+            "question": "True or false: A virus is a living organism.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q012",
+            "question": "What is the name of the process by which plants make their own food?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Photosynthesis"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Respiration"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Digestion"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Assimilation"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q013",
+            "question": "What is the name of the process by which the body converts food into energy?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Photosynthesis"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Respiration"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Digestion"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Assimilation"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q014",
+            "question": "True or false: Mitochondria are the powerhouse of the cell.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q015",
+            "question": "What is the name of the molecule that carries genetic information in cells?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Protein"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Lipid"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "DNA"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Carbohydrate"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr004q016",
+            "question": "True or false: A virus is a living organism.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q017",
+            "question": "What is the name of the process by which cells divide to produce two identical daughter cells?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Meiosis"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Mitosis"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Fermentation"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Translation"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q018",
+            "question": "True or false: All animals are multicellular.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q019",
+            "question": "The human heart has four chambers.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q020",
+            "question": "Which one of these is not a part of a plant's reproductive system?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Stamen"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Pistil"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Sepal"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Calyx"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q021",
+            "question": "Which of these is NOT a part of the human circulatory system?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Heart"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Blood vessels"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Kidneys"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Blood"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr004q022",
+            "question": "Which of the following is NOT a function of the liver?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Produce bile"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Store vitamins"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Detoxify harmful substances"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Produce insulin"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q023",
+            "question": "True or False: All cells have a nucleus.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q024",
+            "question": "Which of the following is NOT a type of muscle tissue?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Skeletal"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Cardiac"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Smooth"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Adipose"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q025",
+            "question": "Which of the following is NOT a type of RNA?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "mRNA"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "tRNA"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "rRNA"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "DNA"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr004q026",
+            "question": "A virus is a living organism.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "True"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "False"
+                }
+            ],
+            "correct_answer": "B"
         }
     ]
 }

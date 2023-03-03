@@ -23,14 +23,14 @@ class AuthController extends GetxController {
   late Stream<User?> _authStateChanges;
 
   void initAuth() async {
-    await Future.delayed(const Duration(seconds: 2));
+    //await Future.delayed(const Duration(seconds: 2));
     _auth = FirebaseAuth.instance;
     //Check whether the user is logged in or not and listen for changes
     _authStateChanges = _auth.authStateChanges();
     _authStateChanges.listen((User? user) {
       _user.value = user;
     });
-    navigateToIntroduction();
+    //navigateToIntroduction();
   }
 
   signInWithGoogle() async {
@@ -76,9 +76,9 @@ class AuthController extends GetxController {
   }
 
   //Move to introduction screen
-  void navigateToIntroduction() {
+  /* void navigateToIntroduction() {
     Get.offAllNamed('/introduction');
-  }
+  }*/
 
   //Dialog that requests the user to log in
   void showLoginAlertDialog() {
