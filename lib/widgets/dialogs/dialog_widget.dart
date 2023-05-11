@@ -25,7 +25,7 @@ class Dialogs {
         ],
       ),
       actions: [
-        TextButton(
+        OutlinedButton(
           onPressed: onTap,
           child: const Text('Confirm'),
         ),

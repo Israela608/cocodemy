@@ -49,10 +49,8 @@ class QuestionCard extends GetView<QuestionPaperController> {
                             child: const CircularProgressIndicator(),
                           ),
                           errorWidget: (context, url, error) =>
-                              Image.asset('assets/images/app_splash_logo.png'),
+                              Image.asset('assets/images/book.png'),
                         ),
-                        /*  child: Image.network(
-                              _questionPaperController.allPapers[index].imageUrl!),*/
                       ),
                     ),
                   ),
@@ -117,7 +115,7 @@ class QuestionCard extends GetView<QuestionPaperController> {
                 child: GestureDetector(
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 12, horizontal: 20),
+                        vertical: 10, horizontal: 13),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(cardBorderRadius),

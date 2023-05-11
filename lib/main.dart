@@ -30,6 +30,22 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+
+      /*
+      //Force the textScaleFactor to be 1 throughout the app
+      //This will hard scale the text to make sure it does not change with the device font size
+      builder: (BuildContext context, Widget? child) {
+        final MediaQueryData data = MediaQuery.of(context);
+
+        return MediaQuery(
+          data: data.copyWith(
+            textScaleFactor: 1.0,
+          ),
+          child: child!,
+        );
+      },
+*/
+
       //Use this theme
       theme: Get.find<ThemeController>().lightTheme,
       darkTheme: Get.find<ThemeController>().darkTheme,

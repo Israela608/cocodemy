@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:cocodemy/config/themes/app_colors.dart';
 import 'package:cocodemy/config/themes/app_icons.dart';
 import 'package:cocodemy/config/themes/custom_text_styles.dart';
@@ -18,6 +20,24 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
   const HomeScreen({Key? key}) : super(key: key);
 
   static const String routeName = '/';
+
+  static const List quizPrompts = <String>[
+    'What do you want to learn today?',
+    "Ready to expand your horizons? Let's dive into some fun learning!",
+    "Time to test your knowledge and discover something new today!",
+    "Let's make learning fun! What topic piques your interest?",
+    "Welcome to your daily dose of curiosity! What would you like to explore?",
+    "Join the adventure of learning something new every day! What's on your mind?",
+    "Get ready to have some fun while you learn! What's your topic of choice today?",
+    "Let's challenge your brain and discover something exciting together! What do you want to learn?",
+    "Curiosity never ends! Let's quench your thirst for knowledge with some exciting questions today!",
+    "Feeling curious? Let's explore some fascinating topics together and learn something new!",
+    "Join the journey of discovering something new every day! What's on your learning agenda?",
+    "Welcome to the world of learning! What interests you today?",
+    "Expand your knowledge, have some fun, and let's learn together! What's your pick for today?",
+    "Let's put your brain to the test! What do you want to learn and challenge yourself with today?",
+    "Unlock your potential and learn something new every day! What's your next topic of interest?",
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +69,7 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
                       onTap: controller.toggleDrawer,
                       child: const Icon(AppIcons.menuLeft),
                     ),
-                    const SizedBox(height: 10),
+                    //const SizedBox(height: 10),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 10),
                       child: Row(
@@ -63,8 +83,8 @@ class HomeScreen extends GetView<MyZoomDrawerController> {
                         ],
                       ),
                     ),
-                    const Text(
-                      'What do you want to learn today?',
+                    Text(
+                      quizPrompts[Random().nextInt(quizPrompts.length)],
                       style: headerText,
                     ),
                   ],

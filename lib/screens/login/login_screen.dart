@@ -23,9 +23,9 @@ class LoginScreen extends GetView<AuthController> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/app_splash_logo.png',
-              width: 200,
-              height: 200,
+              'assets/images/launch_image.png',
+              width: 250,
+              //height: 200,
             ),
             const Padding(
               padding: EdgeInsets.symmetric(vertical: 60),

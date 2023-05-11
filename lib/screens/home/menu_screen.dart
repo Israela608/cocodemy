@@ -23,6 +23,7 @@ class MenuScreen extends GetView<MyZoomDrawerController> {
         child: SafeArea(
           child: Stack(
             children: [
+              //Back Button
               Positioned(
                 top: 0,
                 right: 0,
@@ -39,6 +40,7 @@ class MenuScreen extends GetView<MyZoomDrawerController> {
                 ),
                 child: Column(
                   children: [
+                    //Name
                     Obx(
                       () => controller.user.value == null
                           ? SizedBox()
@@ -53,6 +55,7 @@ class MenuScreen extends GetView<MyZoomDrawerController> {
                     ),
                     const Spacer(flex: 1),
                     ///////////////////////////////////////
+                    // Dark mode - Light mode switch
                     GetBuilder<ThemeController>(
                       builder: (themeController) {
                         return Column(
