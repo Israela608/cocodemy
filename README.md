@@ -56,6 +56,13 @@ flutter run
 ## Screenshots
 
 Here are some screenshots of the app:
+![Screenshot_2023-05-11-15-24-12-064_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/12c9bdf8-0b8a-4f8a-8846-a1df3195d712)
+![Screenshot_2023-05-11-15-27-35-795_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/8976495b-d8b8-4592-803f-33105a04190a)
+![Screenshot_2023-05-11-15-28-40-562_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/7a325462-f1aa-4c60-ad60-ecd44c580296)
+![Screenshot_2023-05-11-15-31-05-434_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/71e6dade-78ea-450d-9a2f-00811f612d40)
+![Screenshot_2023-05-11-15-31-48-020_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/a0a74196-5f8b-42b7-bc5d-4f2a7ff572ae)
+![Screenshot_2023-05-11-15-32-07-254_com example cocodemy](https://github.com/Israela608/cocodemy/assets/53633250/ac09340e-1a0b-4388-b904-f90c4eb7d05f)
+
 
 ## Contributing
 
